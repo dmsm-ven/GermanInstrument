@@ -28,7 +28,7 @@ public partial class MainWindow : Window
         InitializeComponent();
         manager = new ParserManager(
             storageFile: "products.json",
-            yandexDiskRoot: "https://disk.yandex.ru/d/V1KNVJO3SY3ROw",
+            yandexDiskRoot: "",
             resourcesRootFolder: Path.Combine(Directory.GetCurrentDirectory(), "resources"));
         DataContext = manager;
     }
